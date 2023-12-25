@@ -1,0 +1,138 @@
+nav {
+    background-color: #eab676; 
+    text-align: center;
+    height: 30px;
+    font-size: 16px;
+    font-family: Helvetica;
+    padding-bottom: 7px;
+    padding-top: 7px;
+    margin-bottom: 20px;
+    color: #21130d;
+}
+
+nav > a:visited {
+    color: #21130d;
+}
+
+nav > a {
+    font-size: 20px;
+    text-decoration: none;    
+    padding: 10px;
+    margin-left: 30px;
+}
+
+nav > a:hover {
+    color: #eeeee4;
+}
+
+body {
+    background-color: #eeeee4;
+    margin: 0;
+    font-family: Helvetica; 
+    color: #21130d;
+}
+
+h1 {
+    text-align: center;
+}
+
+a {
+    text-decoration:none;
+    color: #21130d;
+}
+
+footer {
+    text-align: center;
+    height: 50px;
+    display: block;
+    background-color:#eab676;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    color: #00120B;
+}
+
+
+form > div {
+    width: 330px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+form > div > input {
+    width: 300px;    
+}
+
+form > div > label {
+    font-size: 14px;
+}
+
+.submit {
+    background-color:  #eab676;
+    padding: 4px;
+}
+
+.submit:hover {
+    color: #eab676;
+    background-color: black;
+}
+
+.alert {
+    font-size: 14px;    
+    color: #e28743;
+}
+
+#signup {    
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+.date_input{
+    width: 220px;
+}
+
+#filter_submit{
+    width: 200px;
+}
+
+table.statistics{
+    text-align:center;
+    margin:auto;
+}
+
+.statistics-head {
+    padding: 20px;
+    
+}
+
+.statistics-link{
+    text-decoration: underline;
+}
+
+.statistics-link:hover{
+    color:#e28743;
+}
+
+#stat-buttons {
+    margin: auto;
+    width: 15%;
+}
+
+.stat-button{
+    margin: 10px;
+    background-color:  #eab676;
+    padding: 4px;
+}
+
+.stat-button:hover {
+    color: #eab676;
+    background-color: black;
+}
+
+#click-on-map{
+    margin:auto;
+    width:20%;
+    padding-top:60px;
+}

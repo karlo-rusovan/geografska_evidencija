@@ -16,7 +16,7 @@ make sure you have postgresql installed<br>
 : createdb sdb /* create a new database */<br>
 : pg_restore --dbname=sdb --no-password --format=custom --single-transaction -if-exists *path-to-backup-file* /* populate the newly created database */<br>
 : sudo apt-get install php<br>
-: sudo apt-get install php-pgql /* install pgql and php if needed */<br>
+: sudo apt-get install php-pgsql /* install pgsql and php if needed */<br>
 : php -S localhost:8000 /* start a local php server */<br>
 you can now access the app in browser at localhost:8000, just make sure to change the username and password in *database.php* file<br>
 according to the user you created the database with<br>
